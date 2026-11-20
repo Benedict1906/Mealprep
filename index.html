@@ -1,1 +1,117 @@
-hfhfnjkenfiherfie
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#263e32" />
+    <meta
+      name="description"
+      content="Discover easy recipes and build a weekly meal plan in your private kitchen notebook."
+    />
+    <title>Meal ideas | What Should I Eat?</title>
+    <link rel="icon" href="assets/icon.svg" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script type="module" src="js/index.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <div class="shell bar">
+        <a class="brand" href="index.html"
+          ><svg
+            aria-hidden="true"
+            width="39"
+            height="38"
+            viewBox="0 0 39 38"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          >
+            <path
+              d="M4 19h31c-2 9-8 13-15 13S7 28 4 19ZM13 34h14M11 15c-5-6 4-6 1-12m7 12c-4-6 5-7 2-13m6 13c-3-4 4-6 3-10"
+            />
+          </svg>
+          What Should I Eat?</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="index.html" aria-current="page">Meal ideas</a
+          ><a href="planner.html">Week planner</a
+          ><a href="submit.html">Submit an idea</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="shell index">
+      <section class="hero">
+        <div>
+          <span class="kicker"><i></i> THE EVERYDAY COOKBOOK</span>
+          <h1>What should<br />I <em>eat?</em></h1>
+          <p>
+            Simple meals for busy days. Find your next bite,<br class="wide" />
+            then make a plan for the week.
+          </p>
+        </div>
+        <figure>
+          <img
+            src="assets/cover.svg"
+            width="410"
+            height="302"
+            alt="Illustrated bowl of lemon chickpeas, tomatoes, cucumber, and feta on a checked napkin."
+          />
+          <figcaption>
+            <span>FIG. 01</span> &nbsp; Lemon chickpea bowl
+          </figcaption>
+        </figure>
+      </section>
+      <section class="picker">
+        <div>
+          <span class="kicker light">THE MEAL GENERATOR</span>
+          <h2>Let the kitchen pick.</h2>
+        </div>
+        <form id="pick">
+          <label
+            >Meal category<select id="category">
+              <option>Breakfast</option>
+              <option>Lunch</option>
+              <option>Dinner</option>
+            </select></label
+          ><button class="butter">⚄ &nbsp; Pick a meal</button>
+        </form>
+      </section>
+      <div role="status" id="picked"></div>
+      <section id="library">
+        <div class="sectiontitle">
+          <div>
+            <span class="kicker">01 &nbsp;/&nbsp; THE COLLECTION</span>
+            <h2>Recipe notebook</h2>
+          </div>
+          <span id="count"></span>
+        </div>
+        <div class="filters" aria-label="Filter recipes">
+          <button class="chip" data-filter="All meals" aria-pressed="true">
+            All meals</button
+          ><button class="chip" data-filter="Breakfast" aria-pressed="false">
+            Breakfast</button
+          ><button class="chip" data-filter="Lunch" aria-pressed="false">
+            Lunch</button
+          ><button class="chip" data-filter="Dinner" aria-pressed="false">
+            Dinner</button
+          ><button class="chip" data-filter="Favorite" aria-pressed="false">
+            Favorite
+          </button>
+        </div>
+        <div id="cards" class="cards"></div>
+      </section>
+      <p id="message" role="status"></p>
+      <noscript
+        >Enable JavaScript to load recipes and use your planner.</noscript
+      >
+    </main>
+    <footer>
+      <div class="shell">
+        <b>What Should I Eat?</b
+        ><span>A small cookbook for everyday life.</span>
+      </div>
+    </footer>
+  </body>
+</html>
