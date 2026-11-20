@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sunny-avocado-toast",
+    "name": "Sunny avocado toast",
+    "category": "Breakfast",
+    "minutes": 10,
+    "description": "Creamy avocado, crisp toast, and an egg with a golden center.",
+    "image": "assets/sunny-avocado-toast.svg",
+    "alt": "Illustration of sunny avocado toast",
+    "ingredients": [
+      "1 slice whole-grain bread",
+      "½ avocado",
+      "1 egg",
+      "1 tsp olive oil",
+      "1 tsp lemon juice"
+    ],
+    "steps": [
+      "Toast the bread until crisp.",
+      "Mash the avocado with the lemon juice and spread it over the toast.",
+      "Heat the oil in a small pan. Fry the egg until the white and yolk are firm, then slide it onto the toast."
+    ]
+  },
+  {
+    "id": "berry-overnight-oats",
+    "name": "Berry overnight oats",
+    "category": "Breakfast",
+    "minutes": 5,
+    "description": "A make-ahead jar of creamy oats and bright berries.",
+    "image": "assets/berry-overnight-oats.svg",
+    "alt": "Illustration of berry overnight oats",
+    "ingredients": [
+      "½ cup rolled oats",
+      "½ cup milk",
+      "¼ cup plain yogurt",
+      "½ cup berries"
+    ],
+    "steps": [
+      "Stir the oats, milk, and yogurt together in a covered container.",
+      "Refrigerate for at least 6 hours. The listed time is hands-on prep.",
+      "Stir again and top with the berries just before eating."
+    ]
+  },
+  {
+    "id": "banana-oat-pancakes",
+    "name": "Banana oat pancakes",
+    "category": "Breakfast",
+    "minutes": 15,
+    "description": "A short stack with a soft center and crisp golden edges.",
+    "image": "assets/banana-oat-pancakes.svg",
+    "alt": "Illustration of banana oat pancakes",
+    "ingredients": [
+      "1 ripe banana",
+      "1 egg",
+      "⅓ cup finely ground oats",
+      "1 tsp cooking oil"
+    ],
+    "steps": [
+      "Mash two-thirds of the banana and slice the rest for topping.",
+      "Beat the egg and ground oats into the mash.",
+      "Heat the oil over medium-low heat. Spoon in small rounds and cook for 2–3 minutes per side until set. Top with sliced banana."
+    ]
+  },
+  {
+    "id": "apple-yogurt-bowl",
+    "name": "Apple yogurt bowl",
+    "category": "Breakfast",
+    "minutes": 5,
+    "description": "Crunchy apple and warm cinnamon over thick yogurt.",
+    "image": "assets/apple-yogurt-bowl.svg",
+    "alt": "Illustration of apple yogurt bowl",
+    "ingredients": [
+      "¾ cup plain yogurt",
+      "1 small apple",
+      "2 tbsp granola",
+      "¼ tsp cinnamon"
+    ],
+    "steps": [
+      "Spoon the yogurt into a bowl.",
+      "Core and thinly slice the apple.",
+      "Arrange the apple on top and finish with granola and cinnamon."
+    ]
+  },
+  {
+    "id": "lemon-chickpea-bowl",
+    "name": "Lemon chickpea bowl",
+    "category": "Lunch",
+    "minutes": 10,
+    "description": "A bright, crunchy bowl with lemon dressing and briny feta.",
+    "image": "assets/lemon-chickpea-bowl.svg",
+    "alt": "Illustration of lemon chickpea bowl",
+    "ingredients": [
+      "¾ cup cooked chickpeas",
+      "½ cucumber",
+      "6 cherry tomatoes",
+      "1 tbsp lemon juice",
+      "1 tsp olive oil",
+      "2 tbsp crumbled feta"
+    ],
+    "steps": [
+      "Rinse and drain the chickpeas. Dice the cucumber and halve the tomatoes.",
+      "Whisk the lemon juice and oil in a bowl.",
+      "Fold in the vegetables and chickpeas, then scatter the feta on top."
+    ]
+  },
+  {
+    "id": "garden-hummus-wrap",
+    "name": "Garden hummus wrap",
+    "category": "Lunch",
+    "minutes": 10,
+    "description": "A soft tortilla packed with hummus and crisp garden vegetables.",
+    "image": "assets/garden-hummus-wrap.svg",
+    "alt": "Illustration of garden hummus wrap",
+    "ingredients": [
+      "1 large tortilla",
+      "3 tbsp hummus",
+      "½ carrot",
+      "¼ cucumber",
+      "1 handful spinach"
+    ],
+    "steps": [
+      "Grate the carrot and cut the cucumber into thin sticks.",
+      "Spread hummus over the tortilla, leaving a narrow border.",
+      "Layer the vegetables across the center. Fold the sides in, roll tightly, and cut in half."
+    ]
+  },
+  {
+    "id": "tomato-basil-toast",
+    "name": "Tomato basil toast",
+    "category": "Lunch",
+    "minutes": 10,
+    "description": "Juicy tomatoes and torn basil piled onto toasted bread.",
+    "image": "assets/tomato-basil-toast.svg",
+    "alt": "Illustration of tomato basil toast",
+    "ingredients": [
+      "2 slices bread",
+      "1 large tomato",
+      "1 tsp olive oil",
+      "4 basil leaves",
+      "1 small garlic clove"
+    ],
+    "steps": [
+      "Toast the bread and rub one side with the cut garlic clove.",
+      "Dice the tomato and toss with oil and torn basil.",
+      "Spoon over the toast just before eating."
+    ]
+  },
+  {
+    "id": "peanut-noodle-salad",
+    "name": "Peanut noodle salad",
+    "category": "Lunch",
+    "minutes": 15,
+    "description": "Cool noodles tossed with crunchy carrots and a peanut dressing.",
+    "image": "assets/peanut-noodle-salad.svg",
+    "alt": "Illustration of peanut noodle salad",
+    "ingredients": [
+      "70 g dry noodles",
+      "½ carrot",
+      "1 tbsp peanut butter",
+      "1 tsp soy sauce",
+      "1 tsp lime juice"
+    ],
+    "steps": [
+      "Cook the noodles according to the packet. Drain and rinse under cold water.",
+      "Whisk the peanut butter, soy sauce, and lime juice with enough water to coat a spoon.",
+      "Grate the carrot and toss it with the noodles and dressing."
+    ]
+  },
+  {
+    "id": "skillet-tomato-pasta",
+    "name": "Skillet tomato pasta",
+    "category": "Dinner",
+    "minutes": 20,
+    "description": "A cozy bowl of pasta with a quick garlicky tomato sauce.",
+    "image": "assets/skillet-tomato-pasta.svg",
+    "alt": "Illustration of skillet tomato pasta",
+    "ingredients": [
+      "80 g dry spaghetti",
+      "¾ cup crushed tomatoes",
+      "1 garlic clove",
+      "1 tsp olive oil",
+      "4 basil leaves"
+    ],
+    "steps": [
+      "Cook the spaghetti according to the packet, reserving a splash of cooking water.",
+      "Warm the oil, add the minced garlic, and stir for 30 seconds. Add tomatoes and simmer for 8 minutes.",
+      "Toss the pasta with the sauce and enough cooking water to loosen it. Tear the basil on top."
+    ]
+  },
+  {
+    "id": "black-bean-tacos",
+    "name": "Black bean tacos",
+    "category": "Dinner",
+    "minutes": 15,
+    "description": "Warm tortillas filled with smoky beans and fresh avocado.",
+    "image": "assets/black-bean-tacos.svg",
+    "alt": "Illustration of black bean tacos",
+    "ingredients": [
+      "2 small tortillas",
+      "¾ cup cooked black beans",
+      "½ avocado",
+      "¼ tsp cumin",
+      "1 lime wedge"
+    ],
+    "steps": [
+      "Drain the beans. Warm in a pan with cumin and a splash of water for 5 minutes.",
+      "Warm the tortillas in a dry skillet.",
+      "Fill with beans, sliced avocado, and a squeeze of lime."
+    ]
+  },
+  {
+    "id": "broccoli-tofu-rice",
+    "name": "Broccoli tofu rice",
+    "category": "Dinner",
+    "minutes": 20,
+    "description": "Golden tofu, tender broccoli, and fluffy rice in one bowl.",
+    "image": "assets/broccoli-tofu-rice.svg",
+    "alt": "Illustration of broccoli tofu rice",
+    "ingredients": [
+      "100 g firm tofu",
+      "1 cup broccoli florets",
+      "¾ cup cooked rice",
+      "1 tsp oil",
+      "2 tsp soy sauce"
+    ],
+    "steps": [
+      "Pat the tofu dry and cube it. Cook in oil over medium heat for 6–8 minutes, turning to brown.",
+      "Add broccoli and a splash of water. Cover for 4 minutes, until tender.",
+      "Stir in the soy sauce and cooked rice, and heat until steaming throughout."
+    ]
+  },
+  {
+    "id": "coconut-lentil-curry",
+    "name": "Coconut lentil curry",
+    "category": "Dinner",
+    "minutes": 25,
+    "description": "Soft red lentils simmered with coconut milk and mild spices.",
+    "image": "assets/coconut-lentil-curry.svg",
+    "alt": "Illustration of coconut lentil curry",
+    "ingredients": [
+      "⅓ cup dry red lentils",
+      "½ cup coconut milk",
+      "½ cup crushed tomatoes",
+      "1 tsp curry powder",
+      "½ cup water"
+    ],
+    "steps": [
+      "Rinse the lentils until the water runs clear.",
+      "Combine all ingredients in a saucepan and bring to a simmer.",
+      "Cook gently for 18–22 minutes, stirring occasionally. Add water as needed until the lentils are soft."
+    ]
+  }
+]
