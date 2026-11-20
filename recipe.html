@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#263e32" />
+    <meta
+      name="description"
+      content="Discover easy recipes and build a weekly meal plan in your private kitchen notebook."
+    />
+    <title>Recipe card | What Should I Eat?</title>
+    <link rel="icon" href="assets/icon.svg" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script type="module" src="js/recipe.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <div class="shell bar">
+        <a class="brand" href="index.html"
+          ><svg
+            aria-hidden="true"
+            width="39"
+            height="38"
+            viewBox="0 0 39 38"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.2"
+            stroke-linecap="round"
+          >
+            <path
+              d="M4 19h31c-2 9-8 13-15 13S7 28 4 19ZM13 34h14M11 15c-5-6 4-6 1-12m7 12c-4-6 5-7 2-13m6 13c-3-4 4-6 3-10"
+            />
+          </svg>
+          What Should I Eat?</a
+        >
+        <nav aria-label="Main navigation">
+          <a href="index.html">Meal ideas</a
+          ><a href="planner.html">Week planner</a
+          ><a href="submit.html">Submit an idea</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="shell recipe">
+      <a href="index.html#library" class="back">← Recipe notebook</a>
+      <div id="detail"></div>
+      <p id="message" role="status"></p>
+      <noscript
+        >Enable JavaScript to load recipes and use your planner.</noscript
+      >
+    </main>
+    <footer>
+      <div class="shell">
+        <b>What Should I Eat?</b
+        ><span>A small cookbook for everyday life.</span>
+      </div>
+    </footer>
+  </body>
+</html>
